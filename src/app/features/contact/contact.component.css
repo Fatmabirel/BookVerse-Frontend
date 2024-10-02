@@ -1,0 +1,14 @@
+a[href^="mailto"] {
+  text-decoration: none;
+  color: black; 
+}
+.icon {
+  font-size: 3rem; 
+}
+
+legend {
+  color: #696969;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4em;
+}

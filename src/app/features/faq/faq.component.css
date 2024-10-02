@@ -1,0 +1,27 @@
+.accordion-header button:hover {
+  border: none; /* Hover efektini kaldırır */
+}
+
+.accordion-header button:focus {
+  outline: none; 
+  box-shadow: none; 
+  background-color:#D3D3D3;
+}
+
+.accordion-item {
+  margin-bottom: 13px; 
+}
+.accordion-button {
+  font-size: 20px;
+  color: #696969; 
+}
+.accordion-body {
+  border-left: 3px solid #696969; 
+  font-style: italic;
+}
+p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 30px;
+}

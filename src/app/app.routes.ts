@@ -3,6 +3,8 @@ import { HomePageComponent } from './features/home-page/components/home-page.com
 import { AuthorComponent } from './features/authors/components/author.component';
 import { CategoryComponent } from './features/categories/components/category.component';
 import { BookComponent } from './features/books/components/book.component';
+import { FaqComponent } from './features/faq/faq.component';
+import { ContactComponent } from './features/contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -20,6 +22,14 @@ export const routes: Routes = [
     {
         path: 'books',
         component: BookComponent
+    },
+    {
+        path: 'faq',
+        component: FaqComponent
+    },
+    {
+        path: 'contact',
+        component: ContactComponent
     },
     
 ];
