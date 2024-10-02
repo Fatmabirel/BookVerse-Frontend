@@ -1,0 +1,86 @@
+/* Navbar background and text styling */
+.navbar {
+  background-color: #696969 !important; /* Gri tonunda navbar arka plan rengi */
+  padding: 10px 0; /* Navbar yüksekliğini küçültmek için padding'i ayarlar */
+  z-index: 2000;
+  position: absolute;
+  top: 0; /* Navbar'ın sayfanın en üstüne yerleşmesini sağlar */
+  left: 0; /* Navbar'ın sol kenarını sayfanın sol kenarına yapıştırır */
+  right: 0; /* Navbar'ın sağ kenarını sayfanın sağ kenarına yapıştırır */
+  width: 100%; /* Navbar'ın genişliğini %100 yapar */
+}
+
+.navbar-nav {
+  flex-direction: row; /* Öğeleri yatay olarak yerleştirir */
+  justify-content: center; /* Öğeleri ortalar */
+  width: 100%; /* Navbar genişliğini alır */
+}
+.nav-item {
+  margin: 0 15px; /* Her bir nav-item arasında boşluk bırakır */
+}
+
+.navbar .nav-link {
+  color: white !important; /* Navbar linklerinin rengini ayarlar */
+  font-size: 1.2rem; /* Link font boyutunu biraz küçültür */
+  margin-right: 15px; /* Sağ kenara boşluk bırakır */
+  padding: 5px 0; /* Linklerin iç boşluklarını ayarlar */
+}
+
+.navbar .nav-link:hover {
+  color: #000 !important; /* Link hover durumunda daha altın sarısı rengi ayarlar */
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-toggler-icon {
+  color: white !important; /* Navbar marka metni ve toggler ikonunun rengini ayarlar */
+}
+
+.navbar .form-control {
+  font-family: "Manrope", sans-serif; /* Form kontrol fontunu ayarlar */
+  font-size: 14px; /* Form kontrol font boyutunu ayarlar */
+  height: 30px; /* Input yüksekliğini küçültür */
+}
+
+.navbar .btn-success {
+  background-color: #696969; /* Gri tonunda başarı butonu arka plan rengi */
+  border-color: white; /* Buton kenarlık rengini ayarlar */
+  font-family: "Manrope", sans-serif; /* Buton fontunu ayarlar */
+  font-size: 14px; /* Buton font boyutu ayarlar */
+  padding: 5px 10px; /* Buton iç boşluklarını ayarlar */
+  margin-right: 14px; /* Sağ kenara boşluk bırakır */
+}
+
+.navbar .btn-success:hover {
+  background-color: #ecf0f3; /* Hover durumunda başarı butonunun arka plan rengini ayarlar */
+  border-color: #696969; /* Hover durumunda buton kenarlık rengini ayarlar */
+  color: #696969; /* Hover durumunda buton rengini ayarlar */
+}
+
+#logo {
+  max-width: 140px; /* Logo maksimum genişliğini ayarlar */
+  max-height: 80px; /* Logo maksimum yüksekliğini ayarlar */
+  width: auto; /* Genişliği otomatik olarak ayarlar */
+  height: auto; /* Yüksekliği otomatik olarak ayarlar */
+  display: inline-block; /* Diğer içeriklerle yan yana yerleştirir */
+  vertical-align: top; /* Dikey hizalama, üst kenara hizalar */
+  margin-left: 30px; /* Sağ kenara boşluk bırakır */
+  border-radius: 5px; /* Kenarlık köşelerini yuvarlar */
+}
+
+.dropdown-menu {
+  position: absolute;
+  overflow: visible; /* Menünün sınırlarını aşmasına izin ver */
+  z-index: 5000; /* Dropdown menünün z-index değeri */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #696969; /* Hover durumunda arka plan rengi ayarlar */
+}
+
+#logo {
+  cursor: pointer; /* Logo üzerine gelindiğinde işaretçi değişimi */
+}  
