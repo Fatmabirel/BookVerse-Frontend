@@ -1,0 +1,54 @@
+h3 {
+  color: #696969;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.group {
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  font-size: 13pt;
+  color: #000;
+  font-family: "Lora", serif;
+}
+
+li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #696969; /* Mavi yerine bordo */
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.list-group-item {
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.container.mt-5 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.list-group-item {
+  color: #696969; /* Mavi yerine bordo */
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<section class="mt-3 text-center container" style="padding-top: 50px">
+  <div class="row py-lg-5">
+    <div class="col-md-8 mx-auto">
+      <h1 class="fw-light">Kategorilerimiz</h1>
+      <p class="lead text-body-secondary">
+        Kütüphanemizde yer alan zengin kategoriler, okuyucularımıza farklı dünyalara açılan kapılar sunuyor. 
+        Her bir kategori, belirli bir tema veya türde eserler barındırarak, edebiyat tutkunlarına geniş bir 
+        yelpaze sunmaktadır. Romanlar, şiirler, denemeler, tarihsel eserler ve daha fazlasıyla, okurlar 
+        farklı bakış açıları kazanarak, düşüncelerini zenginleştirme fırsatı bulacaklar. Kategorilerimizi 
+        keşfederek, edebi bir yolculuğa çıkmaya hazır mısınız?
+      </p>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-4" *ngFor="let key of groupedKeys()">
+      <div class="group">
+        <h3>{{ key }}.</h3>
+        <ul>
+          <li *ngFor="let brand of groupedCategories[key]">
+            {{ brand.name }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
