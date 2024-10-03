@@ -2,14 +2,14 @@
 
 Bu proje, kitapların, yazarların ve kategorilerin yönetimini sağlayan kapsamlı bir kütüphane yönetim sistemidir. Bu proje, kütüphaneler için kullanıcı dostu bir arayüz ile kitapların takibi, yazar bilgileri ve kategorik düzenleme gibi özellikler sunarak kitap okuma deneyimini geliştirmeyi hedefler.
 
-<p>📌Projenin backend kısmına <a href=https://github.com/Fatmabirel/BookVerse-Backend>buradan</a>  ulaşabilirsiniz.</p>
+<p>📌Projenin backend kısmına <a href=https://github.com/Fatmabirel/BookVerse-Backend>buradan</a> ulaşabilirsiniz.</p>
 
 #### GEREKSİNİMLER 🛠
 - [x] Web projesi: 
   ![Asp.NET Web API](https://img.shields.io/badge/asp.net%20web%20api-%231BA3E8.svg?style=for-the-badge&logo=dotnet&logoColor=white)
   ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 - [x] Veri tabanı: 
-  ![MsSQL Server](https://img.shields.io/badge/mssql%20server-%23CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### PROJEDE KULLANILAN PROGRAMLAMA DİLLERİ VE TEKNOLOJİLER 💻🔧
 <p>
